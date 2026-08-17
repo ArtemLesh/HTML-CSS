@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008188;
+}
+.block{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(0 0 0 / 0.06);
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-family: "Calibri", cursive;
+}
+.content{
+    margin: 30px auto 0 auto;
+    width: 70%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-content{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.form-content form{
+    border: 1px solid rgb(0 0 0 / 0.35);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form-content input{
+    margin-left: 2px;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+}
+.button-content{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.button-content label{
+    font-size: 20px;
+}
+.button-content input{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.button-content button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(0 0 0 / 0.1);
+    border: 1px solid rgb(0 0 0 / 0.41);
+    border-radius: 15px;
+}
