@@ -1,0 +1,14 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    body{
+        padding: 48px 24px;
+    }
+    .content{
+        width: 720px;
+        gap: 0
+    }
+    .block{
+        width: 348px;
+        height: 258px;
+        margin-bottom: 40px;
+    }
+}

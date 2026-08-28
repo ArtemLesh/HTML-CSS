@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px){
+    body{
+        padding: 32px 16px;
+    }
+    .content{
+        width: 343px;
+        gap: 32px
+    }
+    .block{
+        width: 343px;
+        height: 220px;
+    }
+    img{
+        width: 128px;
+        height: 128px;
+    }
+}
