@@ -1,0 +1,15 @@
+@media screen and (min-width: 720px) and (max-width: 1024px){
+.content{
+    width: 720px;
+    height: 590px;
+}
+.top-content, .bottom-content{
+    width: 720px;
+    height: 263px;
+}
+.block{
+    width: 218px;
+    height: 239px;
+}
+
+}
