@@ -1,21 +1,12 @@
 body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 64px 48px;
 }
-.content {
+.content{
+    display: flex;
+    margin: 0 auto;
     width: 1180px;
-    height: 772px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.top-content, .bottom-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 .block{
     width: 372px;
@@ -38,6 +29,7 @@ p:last-of-type{
     text-align: center;
     font-family: Inter, serif;
     font-size: 13px;
+    font-style: normal;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: 1.5px;
